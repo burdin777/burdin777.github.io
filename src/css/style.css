@@ -173,7 +173,7 @@ nav{
 }
 
 .title_container3{
-    margin: 100px 360px 0px 390px;
+    margin: 100px 0px 0px 0px;
 }
 
 .title_container3 h3{
@@ -194,10 +194,10 @@ nav{
     color: #545d6c;
     padding-top: 35px;
     text-align: center;
+    padding-bottom: 35px;
    
 }
 .fotka{
-    
-   padding-top: 40px;
-    text-align: center;
+    float: left;
 }
+
