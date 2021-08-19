@@ -149,7 +149,9 @@ nav{
 }
 
 .item_skills img{
+    max-height: 75px;
     padding-bottom: 36px;
+    
 }
 
 .item_skills h7{
@@ -198,6 +200,25 @@ nav{
    
 }
 .fotka{
-    float: left;
+    display: block;
+    margin: 0 auto;
+  
 }
 
+.info{
+    padding-left: 318px;
+    font-size: 13px;
+    color: #5e6672;
+}
+
+.info h7{
+    font-size: 22px;
+    color: #384354;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.info h10{
+    font-size: 15px;
+}
