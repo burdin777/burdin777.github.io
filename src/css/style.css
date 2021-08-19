@@ -98,7 +98,7 @@ nav{
 
 .title_container2 p{
     
-    font-size: 12px;
+    font-size: 15px;
     color: #3f495a;
 }
 .title_container2 input{
@@ -121,8 +121,9 @@ nav{
 }
 
 .title_skills{
-    margin: 105px 409px 90px 417px;
-    text-align: left;
+  
+    margin: 105px 409px 90px 409px;
+    
 }
 
 .title_skills h3{
@@ -141,8 +142,22 @@ nav{
 
 .item_skills{
     float: left;
+    display: inline-block;
+    width: 25%;
     text-align: center;
+    padding-right: 45px;
 }
+
 .item_skills img{
     padding-bottom: 36px;
+}
+
+.item_skills h7{
+    font-size: 16px;
+    font-weight: bold;
+    color: #d89133;    
+}
+
+item_skills p{
+    padding-top: 18px;
 }
