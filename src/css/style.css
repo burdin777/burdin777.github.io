@@ -206,7 +206,23 @@ nav{
 }
 
 .info{
+    float: left;
+   
+    text-align: left;
     padding-left: 318px;
+    padding-right: 100px;
+    font-size: 13px;
+    color: #5e6672;
+   
+}
+.info1{
+    text-align: left;
+    
+    padding-right: 318px;
+    
+}
+.info1 p{
+    text-align: left;
     font-size: 13px;
     color: #5e6672;
 }
@@ -216,9 +232,53 @@ nav{
     color: #384354;
     font-weight: bold;
     text-transform: uppercase;
+    height: 20px;
+    padding-left: 
     
 }
 
-.info h10{
-    font-size: 15px;
+.info1 h6{
+    font-size: 22px;
+    text-align: left;
+    color: #384354;
+    font-weight: bold;
+    margin-left: 100px;
 }
+
+.title_container4{
+    float: left;
+    height: 45px;
+    width: 200px;
+    margin-top: 15px;
+    border: 2px solid #63b5ae;
+    border-radius: 5px;
+    color: ##63b5ae;
+    padding: 13px; 0px;
+    text-align: center;
+    background: #63b5ae;
+}
+.title_container4 h3{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    
+}
+.main4{
+    float: left;
+    width: 100%;
+    height: 900px;
+}
+
+.title_container5{
+    margin: 145px 535px 155px 495px;
+}
+
+.title_container5 h1{
+    font-size: 30px;
+    text-align: center;
+    color: #1c2534;
+    font-weight: bold;
+}
+
