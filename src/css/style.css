@@ -273,12 +273,55 @@ nav{
 
 .title_container5{
     margin: 145px 535px 155px 495px;
+    
 }
 
 .title_container5 h1{
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     color: #1c2534;
     font-weight: bold;
+    padding-bottom: 50px;
 }
 
+.title_container5 h4{
+    font-size: 23px;
+    text-align: left;
+    color: #1c2534;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 22px;
+}
+
+.title_container5 select{
+    width: 890px;
+    height: 58px;
+    border: 2px solid #eeeeee;
+    color: #737373;
+    margin-bottom: 42px;
+    text-align: left;
+    font-size: 20px;
+    background-color: #eeeeee;
+}
+
+
+.title_sroki h5{
+    float: left;
+    padding-top: 25px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 500;
+   
+  
+    
+}
+.sroki_stoimost h5{
+
+    font-size: 22px;
+    font-weight: 500;
+    text-align: right;
+    padding-right: 0px;
+   
+    
+    
+}
