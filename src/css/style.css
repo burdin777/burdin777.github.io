@@ -305,7 +305,7 @@ nav{
 }
 
 
-.title_sroki h5{
+.title_sroki{
     float: left;
     padding-top: 25px;
     text-align: left;
@@ -315,12 +315,11 @@ nav{
   
     
 }
-.sroki_stoimost h5{
-
+.sroki_stoimost{
+    padding-top: 25px;
     font-size: 22px;
     font-weight: 500;
     text-align: right;
-    padding-right: 0px;
    
     
     
