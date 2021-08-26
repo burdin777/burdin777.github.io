@@ -15,7 +15,9 @@ nav{
     line-height: 60px;
     padding-left: 388px;
     float: left;
+    animation: comming ease 2s;
 }
+
 
 .menu{
     float: left;
@@ -35,6 +37,11 @@ main{
     margin-right: 40px;
     font-size: 16px;
     text-transform: uppercase;
+    
+    -webkit-animation: topshift 0.4s ease forwards;
+    -o-animation: topshift 0.4s ease forwards;
+    animation: topshift 0.4s ease forwards;
+    opacity: 0;
 }
 
 .menu li a{
@@ -65,6 +72,11 @@ main{
     margin: 432px 0px 0px 404px;
     color: #2c384a;
     text-align: center;
+    
+    -webkit-animation: titlemove 1s;
+    -o-animation: titlemove 1s;
+    animation :titlemove 1s;
+    
 }
 
 .title_container1 h1{
@@ -93,12 +105,14 @@ main{
 
 .title_container1 input{
     transition: all 0.2s;
+    transform: scale(1)
 }
 .title_container1 input:hover{
-    background: ##344051;
+    background: #344051;
+    color: white;
 }
 .title_container1 input:active{
-    
+    transform: scale(1.1)
 }
 
 .main1{
@@ -610,4 +624,49 @@ main{
     padding-top: 40px;
 }
 
+@keyframes comming{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
+@keyframes topshift{
+    from { 
+        opacity: 0;
+        margin-top: -80px;
+    }
+    to {
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+.menu li:nth-child(2){
+    animation-delay: 0.4s; 
+}
+.menu li:nth-child(3){
+    animation-delay: 0.8s;
+}
+.menu li:nth-child(4){
+    animation-delay: 1.2s;
+}
+.menu li:nth-child(5){
+    animation-delay: 1.6s;
+}
+.menu li:nth-child(6){
+    animation-delay: 2s;
+}
+
+@keyframes titlemove{
+    from { 
+        opacity: 0;
+        margin-left: -500px;
+    }
+    to {
+        opacity: 1;
+        margin-left: 404px;
+    }
+}
