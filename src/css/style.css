@@ -79,6 +79,7 @@ main{
 }
 
 .title_container1 input{
+    display: inline-block;
     height: 40px;
     text-align: center;
     border: 2px solid #79818d;
@@ -87,6 +88,17 @@ main{
     color: #79818d;
     padding: 0px 16px;
     margin: 50px 28px 0px 14px;
+    
+}
+
+.title_container1 input{
+    transition: all 0.2s;
+}
+.title_container1 input:hover{
+    background: ##344051;
+}
+.title_container1 input:active{
+    
 }
 
 .main1{
