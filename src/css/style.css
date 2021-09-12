@@ -1,7 +1,8 @@
-body{
-    font-family: Arial,sans-serif;
+body {
+    font-family: Arial, sans-serif;
 }
-nav{
+
+nav {
     width: 100%;
     height: 60px;
     background: #344051;
@@ -9,7 +10,7 @@ nav{
 }
 
 
-.logo{
+.logo {
     color: #fff;
     font-size: 28px;
     line-height: 60px;
@@ -19,78 +20,87 @@ nav{
 }
 
 
-.menu{
+.menu {
     float: left;
     padding-left: 432px;
 }
 
-main{
+main {
     width: 100%;
     height: 100%;
-    
+
 }
 
-.menu li{
+.menu li {
     float: left;
     line-height: 60px;
     color: #fff;
     margin-right: 40px;
     font-size: 16px;
     text-transform: uppercase;
-    
+
     -webkit-animation: topshift 0.4s ease forwards;
     -o-animation: topshift 0.4s ease forwards;
     animation: topshift 0.4s ease forwards;
     opacity: 0;
 }
 
-.menu li a{
+.menu li a {
     transition: all 0.1s;
     color: white;
     display: inline-block;
     transform: scale(1);
 }
-.menu li a:visited{
+
+.menu li a:visited {
     color: white;
 }
-.menu li a:hover{
+
+.menu li a:hover {
     color: #e5db3c;
-   
+
 }
-.menu li a:active{
+
+.menu li a:active {
     transform: scale(1.1);
 }
 
-.main{
+.main {
     width: 100%;
     height: 100%;
-    background: url(../img/boy.png) 90% 100%/auto 85% no-repeat ,url(../img/bg.jpg) center/cover no-repeat;
+    background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
 }
 
-.title_container1{
+.title_container1 {
     float: left;
     margin: 432px 0px 0px 404px;
     color: #2c384a;
     text-align: center;
     
-    -webkit-animation: titlemove 1s;
-    -o-animation: titlemove 1s;
-    animation :titlemove 1s;
+    opacity: 0;
+
+    -webkit-animation: titlemove 1s forwards;
+    -o-animation: titlemove 1s forwards;
+    animation: titlemove 1s forwards;
     
+    -webkit-animation-delay: 2s ;
+    -o-animation-delay: 2s ;
+    animation-delay: 2s ;
+
 }
 
-.title_container1 h1{
+.title_container1 h1 {
     font-size: 60px;
     font-weight: bold;
 }
 
-.title_container1 h4{
+.title_container1 h4 {
     margin-top: 40px;
     font-size: 22px;
     color: #79818d;
 }
 
-.title_container1 input{
+.title_container1 input {
     display: inline-block;
     height: 40px;
     text-align: center;
@@ -100,58 +110,64 @@ main{
     color: #79818d;
     padding: 0px 16px;
     margin: 50px 28px 0px 14px;
-    
+
 }
 
-.title_container1 input{
+.title_container1 input {
     transition: all 0.2s;
     transform: scale(1)
 }
-.title_container1 input:hover{
+
+.title_container1 input:hover {
     background: #344051;
     color: white;
 }
-.title_container1 input:active{
+
+.title_container1 input:active {
     transform: scale(1.1)
 }
 
-.main1{
+.main1 {
     width: 100%;
     height: 415px;
-    
+
 }
-.title_container2{
+
+.title_container2 {
     float: left;
     margin: 108px 595px 97px 595px;
     text-align: center;
-    
+
 }
 
-.title_container2 h3{
+.title_container2 h3 {
     font-size: 30px;
     font-weight: bold;
     color: #263244;
     text-align: center;
     padding-bottom: 32px;
 }
-.title_container2 img{
+
+.title_container2 img {
     display: block;
     margin: 0 auto;
-    
-}
-.BoyIn{
-    padding-top: 60px;
-    padding-bottom: 25px;
-    
-    
+
 }
 
-.title_container2 p{
-    
+.BoyIn {
+    padding-top: 60px;
+    padding-bottom: 25px;
+
+
+}
+
+.title_container2 p {
+
     font-size: 15px;
     color: #3f495a;
 }
-.title_container2 input{
+
+.title_container2 input {
     margin-top: 35px;
     height: 30px;
     text-align: center;
@@ -160,23 +176,35 @@ main{
     background: none;
     padding: 0px 16px;
 }
+.title_container2 input {
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.title_container2 input:hover {
+    background: #344051;
+    color: white;
+}
+
+.title_container2 input:active {
+    transform: scale(1.1);
+}
 
 
-
-.main2{
+.main2 {
     float: left;
     width: 100%;
     height: 520px;
     background: url(../img/bgSkills.jpg) center/cover no-repeat;
 }
 
-.title_skills{
-  
+.title_skills {
+
     margin: 105px 409px 90px 409px;
-    
+
 }
 
-.title_skills h3{
+.title_skills h3 {
     font-size: 30px;
     font-weight: bold;
     color: #263244;
@@ -184,13 +212,13 @@ main{
     padding-bottom: 30px;
 }
 
-.title_skills img{
+.title_skills img {
     display: block;
     margin: 0 auto;
     padding-bottom: 108px;
 }
 
-.item_skills{
+.item_skills {
     float: left;
     display: inline-block;
     width: 25%;
@@ -198,19 +226,19 @@ main{
     padding-right: 45px;
 }
 
-.item_skills img{
+.item_skills img {
     max-height: 75px;
     padding-bottom: 36px;
-    
+
 }
 
-.item_skills h7{
+.item_skills h7 {
     font-size: 16px;
     font-weight: bold;
-    color: #d89133;    
+    color: #d89133;
 }
 
-.item_skills p{
+.item_skills p {
     float: left;
     font-size: 13px;
     color: #545d6c;
@@ -218,17 +246,17 @@ main{
 }
 
 
-.main3{
+.main3 {
     float: left;
     width: 100%;
     height: 1050px;
 }
 
-.title_container3{
+.title_container3 {
     margin: 100px 0px 0px 0px;
 }
 
-.title_container3 h3{
+.title_container3 h3 {
     font-size: 30px;
     font-weight: bold;
     color: #384354;
@@ -236,57 +264,61 @@ main{
     padding-bottom: 30px;
 }
 
-.title_container3 img{
+.title_container3 img {
     display: block;
     margin: 0 auto;
 }
 
-.title_container3 p{
+.title_container3 p {
     font-size: 13px;
     color: #545d6c;
     padding-top: 35px;
     text-align: center;
     padding-bottom: 35px;
-   
-}
-.fotka{
-    display: block;
-    margin: 0 auto;
-  
+
 }
 
-.info{
+.fotka {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.info {
     float: left;
-   
+
     text-align: left;
     padding-left: 318px;
     padding-right: 100px;
     font-size: 13px;
     color: #5e6672;
-   
+
 }
-.info1{
+
+
+.info1 {
     text-align: left;
     padding-right: 318px;
-    
+
 }
-.info1 p{
+
+.info1 p {
     text-align: left;
     font-size: 13px;
     color: #5e6672;
 }
 
-.info h7{
+.info h7 {
     font-size: 22px;
     color: #384354;
     font-weight: bold;
     text-transform: uppercase;
     height: 20px;
-    padding-left: 
-    
+    padding-left:
+
 }
 
-.info1 h6{
+.info1 h6 {
     font-size: 22px;
     text-align: left;
     color: #384354;
@@ -294,7 +326,7 @@ main{
     margin-left: 100px;
 }
 
-.title_container4{
+.title_container4 {
     float: left;
     height: 45px;
     width: 200px;
@@ -302,30 +334,47 @@ main{
     border: 2px solid #63b5ae;
     border-radius: 5px;
     color: ##63b5ae;
-    padding: 13px; 0px;
+    padding: 13px;
+    0px;
     text-align: center;
     background: #63b5ae;
 }
-.title_container4 h3{
+
+.title_container4 {
+    transition: all 0.1s;
+    transform: scale(1);
+}
+
+.title_container4:hover {
+    background: #384354 ;
+    
+}
+.title_container4:active {
+    transform: scale(1.1);
+}
+
+
+.title_container4 h3 {
     text-align: center;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: bold;
     color: #ffffff;
-    
+
 }
-.main4{
+
+.main4 {
     float: left;
     width: 100%;
     height: 900px;
 }
 
-.title_container5{
+.title_container5 {
     margin: 145px 535px 155px 495px;
-    
+
 }
 
-.title_container5 h1{
+.title_container5 h1 {
     font-size: 35px;
     text-align: center;
     color: #1c2534;
@@ -333,7 +382,7 @@ main{
     padding-bottom: 50px;
 }
 
-.title_container5 h4{
+.title_container5 h4 {
     font-size: 23px;
     text-align: left;
     color: #1c2534;
@@ -342,7 +391,7 @@ main{
     padding-bottom: 22px;
 }
 
-.title_container5 select{
+.title_container5 select {
     width: 890px;
     height: 58px;
     border: 2px solid #eeeeee;
@@ -354,17 +403,18 @@ main{
 }
 
 
-.title_sroki{
+.title_sroki {
     float: left;
     padding-top: 25px;
     text-align: left;
     font-size: 22px;
     font-weight: 500;
-   
-  
-   
+
+
+
 }
-.sroki_stoimost{
+
+.sroki_stoimost {
     padding-top: 25px;
     font-size: 22px;
     font-weight: 500;
@@ -372,30 +422,31 @@ main{
 }
 
 
-.main5{
+.main5 {
     float: left;
     width: 100%;
     height: 500px;
     background: url(../img/BgStatistika.jpg) center/cover no-repeat;
 }
 
-.title_container6{
+.title_container6 {
     margin: 100px 460px 100px 440px;
 }
 
-.title_container6 h6{
+.title_container6 h6 {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 32px;
 }
-.title_container6 img{
+
+.title_container6 img {
     display: block;
     margin: 0 auto;
 }
 
-.title_container_statistics{
+.title_container_statistics {
     float: left;
     height: 148px;
     padding-top: 83px;
@@ -403,18 +454,19 @@ main{
     width: 25%;
     text-align: center;
 }
-.title_container_statistics img{
+
+.title_container_statistics img {
     max-height: 75px;
     padding-bottom: 28px;
 }
 
-.title_container_statistics h3{
+.title_container_statistics h3 {
     font-size: 40px;
     font-weight: 700;
     color: #323e4f;
 }
 
-.title_container_statistics p{
+.title_container_statistics p {
     padding-top: 30px;
     font-size: 12px;
     font-weight: bold;
@@ -422,103 +474,110 @@ main{
     color: #444e5d;
 }
 
-.main6{
+.main6 {
     float: left;
     width: 100%;
     height: 590px;
 }
 
-.title_container_reviews{
+.title_container_reviews {
     margin: 105px 615px 90px 617px;
 }
 
-.title_container_reviews h3{
+.title_container_reviews h3 {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 32px;
 }
-.title_container_reviews img{
+
+.title_container_reviews img {
     display: block;
     margin: 0 auto;
 }
-.Foto_otziv{
+
+.Foto_otziv {
     padding-top: 55px;
     padding-bottom: 34px;
 }
 
-.title_container_reviews p{
+.title_container_reviews p {
     text-align: center;
     font-size: 15px;
     color: #525965;
     padding-bottom: 38px;
-    
+
 }
 
-.title_container_reviews h5{
+.title_container_reviews h5 {
     text-align: center;
     padding-bottom: 50px;
 }
 
-.title_container_reviews input{
+.title_container_reviews input {
     margin: 1%;
     display: block;
     margin: 0 auto;
-    
+
 }
-   
-.main7{
+
+.main7 {
     float: left;
     width: 100%;
     height: 808px;
     background: url(../img/BgKontakti.jpg) center/cover no-repeat;
-         
-    
+
+
 }
-.title_contacts{
+
+.title_contacts {
     margin: 60px 594px 90px 594px;
 }
 
-.title_contacts h3{
+.title_contacts h3 {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
     padding-bottom: 30px;
-    
+
 }
-.title_contacts p{
+
+.title_contacts p {
     font-size: 12px;
     text-align: center;
     color: #ffffff;
     padding-top: 30px;
     padding-bottom: 43px;
-    
+
 }
 
-.title_contacts img{
+.title_contacts img {
     display: block;
     margin: 0 auto;
 }
-.title_contacts1{
+
+.title_contacts1 {
     float: left;
     display: inline-block;
     width: 33%;
     text-align: center;
     color: #ffffff;
 }
-.title_contacts h5{
+
+.title_contacts h5 {
     font-size: 20px;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 500;
     text-align: center;
-        
+
 }
-.title_massage h5{
-    
+
+.title_massage h5 {
+
     padding-top: 80px;
     font-size: 28px;
     text-transform: uppercase;
@@ -528,11 +587,11 @@ main{
     padding-bottom: 45px;
 }
 
-.title_massage{
-    
+.title_massage {
+
     display: block;
     margin: 0 auto;
-   
+
     text-align: left;
     font-size: 15px;
     font-weight: 300;
@@ -543,17 +602,18 @@ main{
     padding-bottom: 15px;
 }
 
-.title_massage1{
+.title_massage1 {
     float: left;
     width: auto;
-   
+
 }
 
-.title_massage2{
+.title_massage2 {
     float: right;
     width: auto;
 }
-.title_massage input{
+
+.title_massage input {
     width: 320px;
     height: 34px;
     text-align: left;
@@ -561,7 +621,7 @@ main{
     background: #d2d6dc;
 }
 
-.title_massage textarea{
+.title_massage textarea {
     float: left;
     width: 100%;
     margin-top: 15px;
@@ -570,15 +630,11 @@ main{
     padding-left: 15px;
     padding-top: 10px;
     margin-bottom: 27px;
-    
+
 }
 
-.input_massage{
-    
-    
-}
 
-.input_massage input{
+.input_massage input {
     display: block;
     margin: 0 auto;
     width: 123px;
@@ -589,82 +645,99 @@ main{
     border-radius: 5px;
     background: none;
     color: #ffffff;
-   
-    
-    
-    
 }
 
-.karta{
+.input_massage input{
+    transition: all 0.1s;
+    transform: scale(1);
+}
+.input_massage input:hover {
+    background: white;
+    color: #344051;
+}
+
+.input_massage input:active {
+    transform: scale(1.1);
+}
+
+
+.karta {
     float: left;
     width: 100%;
     height: 350px;
-    background:   url(../img/Here.png) 50% 49% /auto 20% no-repeat ,url(../img/KartaKopiya.jpg) center/ cover no-repeat;
+    background: url(../img/Here.png) 50% 49% /auto 20% no-repeat, url(../img/KartaKopiya.jpg) center/ cover no-repeat;
 }
 
-.karta p{
+.karta p {
     font-size: 22px;
     padding-top: 155px;
     padding-left: 890px;
     text-transform: uppercase;
-    
+
 }
 
-.podval{
-   float: left;
+.podval {
+    float: left;
     width: 100%;
     height: 90px;
     text-align: center;
     color: #ffffff;
-   
+
     background: url(../img/Podval.jpg) center/ cover no-repeat;
 }
 
-.podval p{
+.podval p {
     padding-top: 40px;
 }
 
-@keyframes comming{
+@keyframes comming {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
 }
 
-@keyframes topshift{
-    from { 
+@keyframes topshift {
+    from {
         opacity: 0;
         margin-top: -80px;
     }
+
     to {
         opacity: 1;
         margin-top: 0px;
     }
 }
 
-.menu li:nth-child(2){
-    animation-delay: 0.4s; 
+.menu li:nth-child(2) {
+    animation-delay: 0.4s;
 }
-.menu li:nth-child(3){
+
+.menu li:nth-child(3) {
     animation-delay: 0.8s;
 }
-.menu li:nth-child(4){
+
+.menu li:nth-child(4) {
     animation-delay: 1.2s;
 }
-.menu li:nth-child(5){
+
+.menu li:nth-child(5) {
     animation-delay: 1.6s;
 }
-.menu li:nth-child(6){
+
+.menu li:nth-child(6) {
     animation-delay: 2s;
 }
 
-@keyframes titlemove{
-    from { 
+@keyframes titlemove {
+    from {
         opacity: 0;
         margin-left: -500px;
     }
+
     to {
         opacity: 1;
         margin-left: 404px;
