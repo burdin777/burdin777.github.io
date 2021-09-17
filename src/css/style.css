@@ -7,6 +7,7 @@ nav {
     height: 60px;
     background: #344051;
     position: fixed;
+   z-index: 1;
 }
 
 
@@ -68,8 +69,28 @@ main {
 .main {
     width: 100%;
     height: 100%;
-    background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+    background: url(../img/bg.jpg) center/cover no-repeat;
 }
+
+.title_titlemove {
+    width: 100%;
+    height: 100%;
+    background: url(../img/boy.png) 90% 100%/auto 85% no-repeat;
+}
+
+.title_titlemove { 
+    opacity: 0;
+   
+
+    -webkit-animation: titlemove2 1s forwards;
+    -o-animation: titlemove2 1s  forwards;
+    animation: titlemove2 1s  forwards;
+
+    -webkit-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
 
 .title_container1 {
     float: left;
@@ -77,15 +98,16 @@ main {
     color: #2c384a;
     text-align: center;
     
+    
     opacity: 0;
 
     -webkit-animation: titlemove 1s forwards;
     -o-animation: titlemove 1s forwards;
     animation: titlemove 1s forwards;
-    
-    -webkit-animation-delay: 2s ;
-    -o-animation-delay: 2s ;
-    animation-delay: 2s ;
+
+    -webkit-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s;
 
 }
 
@@ -110,7 +132,7 @@ main {
     color: #79818d;
     padding: 0px 16px;
     margin: 50px 28px 0px 14px;
-
+   
 }
 
 .title_container1 input {
@@ -176,6 +198,7 @@ main {
     background: none;
     padding: 0px 16px;
 }
+
 .title_container2 input {
     transition: all 0.2s;
     transform: scale(1);
@@ -346,9 +369,10 @@ main {
 }
 
 .title_container4:hover {
-    background: #384354 ;
-    
+    background: #384354;
+
 }
+
 .title_container4:active {
     transform: scale(1.1);
 }
@@ -647,10 +671,11 @@ main {
     color: #ffffff;
 }
 
-.input_massage input{
+.input_massage input {
     transition: all 0.1s;
     transform: scale(1);
 }
+
 .input_massage input:hover {
     background: white;
     color: #344051;
@@ -741,5 +766,17 @@ main {
     to {
         opacity: 1;
         margin-left: 404px;
+    }
+}
+
+@keyframes titlemove2 {
+    from {
+        opacity: 0;
+        margin-bottom: 0px;
+    }
+
+    to {
+        opacity: 1;
+        margin-bottom: 0px;
     }
 }
