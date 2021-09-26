@@ -7,7 +7,7 @@ nav {
     height: 60px;
     background: #344051;
     position: fixed;
-   z-index: 1;
+    z-index: 50;
 }
 
 
@@ -78,6 +78,23 @@ main {
     background: url(../img/boy.png) 90% 100%/auto 85% no-repeat;
 }
 
+.title_titlemove {
+   
+    
+    opacity: 0;
+
+
+    -webkit-animation: titlemove2 1s ease forwards;
+    -o-animation: titlemove2 1s ease forwards;
+    animation: titlemove2 1s ease forwards;
+
+    -webkit-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s;
+    
+    position: relative;
+    z-index: 1;
+}
 
 .title_container1 {
     float: left;
@@ -85,7 +102,9 @@ main {
     color: #2c384a;
     text-align: center;
     
-    
+    position: relative;
+    z-index: 2;
+
     opacity: 0;
 
     -webkit-animation: titlemove 1s forwards;
@@ -96,19 +115,6 @@ main {
     -o-animation-delay: 2s;
     animation-delay: 2s;
 
-}
-
-.title_titlemove { 
-    opacity: 0;
-   
-
-    -webkit-animation: titlemove2 1s ease forwards;
-    -o-animation: titlemove2 1s ease forwards;
-    animation: titlemove2 1s ease forwards;
-
-    -webkit-animation-delay: 2s;
-    -o-animation-delay: 2s;
-    animation-delay: 2s;
 }
 
 
@@ -133,7 +139,7 @@ main {
     color: #79818d;
     padding: 0px 16px;
     margin: 50px 28px 0px 14px;
-   
+
 }
 
 .title_container1 input {
@@ -452,11 +458,11 @@ main {
     width: 100%;
     height: 500px;
     background: url(../img/BgStatistika.jpg) center/cover no-repeat;
-    
+
     /* parallax */
     background-attachment: fixed;
     height: 500px;
-} 
+}
 
 .main5 {
     perspective: 1px;
@@ -784,7 +790,7 @@ main {
 @keyframes titlemove2 {
     from {
         opacity: 0;
-        margin-right: -5000px;
+        margin-right: -1000px;
     }
 
     to {
