@@ -158,55 +158,55 @@ main {
 .main1 {
     
     width: 100%;
-    height: 100%;
+    height: 718px;
 
 }
 
 .title_container2 {
     float: left;
-    
     text-align: center;
-    margin-top: 108px;
    
     
 
 }
 
 .title_container2 h3 {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
     color: #263244;
     text-align: center;
-    padding-bottom: 32px;
+    text-transform: uppercase;
+    padding-top: 106px;
+    padding-bottom: 20px;
 }
 
 .title_container2 img {
-    display: block;
-    margin: 0 auto;
-
+    
+    
 }
 
 .BoyIn {
-    padding-top: 60px;
-    padding-bottom: 25px;
+    padding-top: 58px;
+    padding-bottom: 23px;
 
 
 }
 
 .title_container2 p {
-
     font-size: 15px;
     color: #3f495a;
+    margin: 0;
 }
 
 .title_container2 input {
-    margin-top: 35px;
+    margin-top: 30px;
     height: 30px;
     text-align: center;
     border: 2px solid #6f707e;
     border-radius: 5px;
     background: none;
     padding: 0px 16px;
+    
 }
 
 .title_container2 input {
@@ -227,13 +227,13 @@ main {
 .main2 {
     float: left;
     width: 100%;
-    height: 520px;
+    height: 524px;
     background: url(../img/bgSkills.jpg) center/cover no-repeat;
 }
 
 .title_skills {
      width: 100%; 
-    margin-top: 106px;
+     padding-top: 106px;
     
 
 }
@@ -253,16 +253,13 @@ main {
 }
 
 .item_skills {
-    float: left;
-    display: inline-block;
-    width: 25%;
     text-align: center;
     
 }
 
 .item_skills img {
     max-height: 75px;
-    padding-bottom: 36px;
+    padding-bottom: 34px;
 
 }
 
@@ -283,11 +280,12 @@ main {
 .main3 {
     float: left;
     width: 100%;
-    height: 1050px;
+    height: 1210px;
 }
 
 .title_container3 {
-    margin: 100px 0px 0px 0px;
+    margin-top: 105px;
+   
 }
 
 .title_container3 h3 {
@@ -295,6 +293,7 @@ main {
     font-weight: bold;
     color: #384354;
     text-align: center;
+    text-transform: uppercase;
     padding-bottom: 30px;
 }
 
@@ -313,8 +312,10 @@ main {
 }
 
 .fotka {
-    display: block;
-    margin: 0 auto;
+    width: 100%;
+    height: 572px;
+    padding-bottom: 49px;
+    
 
 }
 
@@ -322,33 +323,35 @@ main {
     float: left;
 
     text-align: left;
-    padding-left: 318px;
-    padding-right: 100px;
     font-size: 13px;
     color: #5e6672;
 
 }
 
+.info h10 {
+    font-size: 12,5px;
+    
+}
 
 .info1 {
     text-align: left;
-    padding-right: 318px;
+    
 
 }
 
 .info1 p {
     text-align: left;
-    font-size: 13px;
+    font-size: 16px;
     color: #5e6672;
 }
 
 .info h7 {
-    font-size: 22px;
+    font-size: 19px;
     color: #384354;
     font-weight: bold;
     text-transform: uppercase;
     height: 20px;
-    padding-left:
+    
 
 }
 
@@ -357,7 +360,6 @@ main {
     text-align: left;
     color: #384354;
     font-weight: bold;
-    margin-left: 100px;
 }
 
 .title_container4 {
@@ -367,10 +369,11 @@ main {
     margin-top: 15px;
     border: 2px solid #63b5ae;
     border-radius: 5px;
-    color: ##63b5ae;
+    color: #63b5ae;
     padding: 13px;
     0px;
     text-align: center;
+    text-decoration: none;
     background: #63b5ae;
 }
 
@@ -391,7 +394,7 @@ main {
 
 .title_container4 h3 {
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     text-transform: uppercase;
     font-weight: bold;
     color: #ffffff;
@@ -401,15 +404,14 @@ main {
 .main4 {
     float: left;
     width: 100%;
-    height: 900px;
+    height: 756px;
+    margin-bottom: 30px;
+    
 }
 
-.title_container5 {
-    margin: 145px 535px 155px 495px;
 
-}
 
-.title_container5 h1 {
+.main4 h1 {
     font-size: 35px;
     text-align: center;
     color: #1c2534;
@@ -417,7 +419,7 @@ main {
     padding-bottom: 50px;
 }
 
-.title_container5 h4 {
+.main4 h4 {
     font-size: 23px;
     text-align: left;
     color: #1c2534;
@@ -426,8 +428,8 @@ main {
     padding-bottom: 22px;
 }
 
-.title_container5 select {
-    width: 890px;
+.main4 select {
+    width: 100%;
     height: 58px;
     border: 2px solid #eeeeee;
     color: #737373;
@@ -437,23 +439,45 @@ main {
     background-color: #eeeeee;
 }
 
+.main4 img {
+    width: 100%;
+}
 
-.title_sroki {
+.main4 h5 {
     float: left;
-    padding-top: 25px;
+    padding-top: 20px;
     text-align: left;
     font-size: 22px;
     font-weight: 500;
 
-
-
 }
 
-.sroki_stoimost {
-    padding-top: 25px;
+.main4 h6 {
+    padding-top: 20px;
     font-size: 22px;
     font-weight: 500;
     text-align: right;
+}
+
+.main4 input {
+    width: 180px;
+    height: 45px;
+    border: 2px solid #63b5ae;
+    border-radius: 5px;
+    background: #63b5ae;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+.main4 input {
+    transition: all 0.1s;
+    transform: scale(1);
+}
+.main4 input:hover {
+    background: #384354;
+}
+.main4 input:active {
+    transform: scale(1.1);
 }
 
 
@@ -475,49 +499,41 @@ main {
     overflow-y: auto;
 }
 
-.title_container6 {
-    margin: 100px 460px 100px 440px;
-}
 
-.title_container6 h6 {
+
+.main5 h6 {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+    padding-top: 100px;
     padding-bottom: 32px;
+    
 }
 
-.title_container6 img {
+.main5 img {
     display: block;
     margin: 0 auto;
+    margin-bottom: 90px;
 }
 
-.title_container_statistics {
-    float: left;
-    height: 148px;
-    padding-top: 83px;
-    display: inline-block;
-    width: 25%;
-    text-align: center;
-}
 
-.title_container_statistics img {
-    max-height: 75px;
-    padding-bottom: 28px;
-}
-
-.title_container_statistics h3 {
+.main5 h3 {
+    margin-top: -55px;
     font-size: 40px;
     font-weight: 700;
     color: #323e4f;
+    text-align: center;
 }
 
-.title_container_statistics p {
+.main5 p {
     padding-top: 30px;
     font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
     color: #444e5d;
+    text-align: center;
+    
 }
 
 .main6 {
@@ -526,11 +542,8 @@ main {
     height: 590px;
 }
 
-.title_container_reviews {
-    margin: 105px 615px 90px 617px;
-}
 
-.title_container_reviews h3 {
+.main6 h3 {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -538,7 +551,7 @@ main {
     padding-bottom: 32px;
 }
 
-.title_container_reviews img {
+.main6 img {
     display: block;
     margin: 0 auto;
 }
@@ -548,7 +561,7 @@ main {
     padding-bottom: 34px;
 }
 
-.title_container_reviews p {
+.main6 p {
     text-align: center;
     font-size: 15px;
     color: #525965;
@@ -556,13 +569,13 @@ main {
 
 }
 
-.title_container_reviews h5 {
+.main6 h5 {
     text-align: center;
     padding-bottom: 50px;
 }
 
-.title_container_reviews input {
-    margin: 1%;
+.main6 input {
+    
     display: block;
     margin: 0 auto;
 
@@ -571,36 +584,34 @@ main {
 .main7 {
     float: left;
     width: 100%;
-    height: 808px;
+    height: 810px;
     background: url(../img/BgKontakti.jpg) center/cover no-repeat;
 
 
 }
 
-.title_contacts {
-    margin: 60px 594px 90px 594px;
-}
 
-.title_contacts h3 {
+.main7 h3 {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
+    padding-top: 100px;
     padding-bottom: 30px;
 
 }
 
-.title_contacts p {
+.main7 p {
     font-size: 12px;
     text-align: center;
     color: #ffffff;
     padding-top: 30px;
     padding-bottom: 43px;
-
+    margin: 0;
 }
 
-.title_contacts img {
+.main7 img {
     display: block;
     margin: 0 auto;
 }
@@ -613,54 +624,33 @@ main {
     color: #ffffff;
 }
 
-.title_contacts h5 {
-    font-size: 20px;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: 500;
-    text-align: center;
 
-}
+.main7 h5 {
 
-.title_massage h5 {
-
-    padding-top: 80px;
+    padding-top: 35px;
     font-size: 28px;
     text-transform: uppercase;
     font-weight: 500;
     color: #ffffff;
-    padding-left: 35px;
-    padding-bottom: 45px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin: 0;
 }
 
 .title_massage {
-
-    display: block;
-    margin: 0 auto;
-
     text-align: left;
     font-size: 15px;
     font-weight: 300;
     color: #5d5d5e;
-    padding-left: 15px;
-    padding-top: 10px;
     height: 34px;
     padding-bottom: 15px;
+    padding-left: 13px;
 }
 
-.title_massage1 {
-    float: left;
-    width: auto;
 
-}
-
-.title_massage2 {
-    float: right;
-    width: auto;
-}
 
 .title_massage input {
-    width: 320px;
+    width: 100%;
     height: 34px;
     text-align: left;
     padding-left: 15px;
@@ -670,6 +660,7 @@ main {
 .title_massage textarea {
     float: left;
     width: 100%;
+    height: 100px;
     margin-top: 15px;
     text-align: left;
     background: #d2d6dc;
