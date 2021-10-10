@@ -710,9 +710,8 @@ main {
 .karta p {
     font-size: 22px;
     padding-top: 155px;
-    padding-left: 890px;
     text-transform: uppercase;
-
+    text-align: center;
 }
 
 .podval {
