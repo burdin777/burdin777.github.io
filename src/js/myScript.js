@@ -1,5 +1,38 @@
 "use strict"
 
+
+
+$(document).ready(function(){
+    
+    $(window).scroll(() => {
+    let scrollDistance = $(window).scrollTop();
+    
+    $(".main1",".main2",".main3",".main4",".main6",".main7").each((i,el) => {
+      
+        if($(el).offset().top - $("nav").outerHeight() <= scrollDistance){
+            $("nav a").each((i,el) => {
+                if ($(el).hasClass("active")){
+                    $(el).removeClass("active");    
+                }
+            });
+            
+            $('nav li:eq('+ i +')').find('a').addClass('active');
+        }
+        
+    });
+    
+});
+
+
+$('a[href^="#"]').click(function(){
+   let valHref = $(this).attr("href");
+    $('html,body').animate({scrollTop: $(valHref).offset().top - 50 + "px"});
+});
+
+    
+    
+    
+
 let yorVar1 = prompt ("Введите число соответствующее желаемому типу Сайта 1-Сайт визитка  2-Интернет Магазин");
 
 if (yorVar1 == 1){
@@ -50,7 +83,3 @@ else {
 let summ = yorVar1 + yorVar2 + yorVar3 + " Рублей";
 
 alert (summ);
-
-
-
-
