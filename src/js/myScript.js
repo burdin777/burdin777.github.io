@@ -61,7 +61,7 @@ $(document).ready(function () {
 
     
     $('#js_botton').click(function(){
-       var value = $('#select').val();
+       var value = $('#select_1').val();
         $('#js_result').html(value);
     });
     
