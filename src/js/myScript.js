@@ -7,7 +7,7 @@ $(document).ready(function(){
     $(window).scroll(() => {
     let scrollDistance = $(window).scrollTop();
     
-    $(".main1",".main2",".main3",".main4",".main6",".main7").each((i,el) => {
+    $(".sunrize").each((i,el) => {
       
         if($(el).offset().top - $("nav").outerHeight() <= scrollDistance){
             $("nav a").each((i,el) => {
@@ -30,6 +30,12 @@ $('a[href^="#"]').click(function(){
 });
 
     
+    var myModal = document.getElementById('myModal')
+var myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})
     
     
 
