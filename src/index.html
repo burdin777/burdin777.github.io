@@ -248,12 +248,10 @@
                     
                 <div class="row">
                     <div class="col-xxl-10 col-xl-10 col-lg-10 col-12 offset-1">
-                        <select name="list1" id="list">
+                        <select name="list1" id="list_1">
                         <option value="option0" selected disabled>Выберите пункт...</option>
-                        <option value="option1">Тип №1</option>
-                        <option value="option2">Тип №2</option>
-                        <option value="option3">Тип №3</option>
-                        <option value="option4">Тип №4</option>
+                        <option value="option1">Визитка</option>
+                        <option value="option2">Интернет магазин</option>
                     </select>
                     </div>
                 </div>
@@ -266,12 +264,11 @@
                     
                     <div class="row">
                         <div class="col-xxl-10 col-xl-10 col-lg-10 col-12 offset-1">
-                            <select name="list1" id="list">
+                            <select name="list2" id="list_2">
                         <option value="option0" selected disabled>Выберите пункт...</option>
-                        <option value="option1">Дизайн №1</option>
-                        <option value="option2">Дизайн №2</option>
-                        <option value="option3">Дизайн №3</option>
-                        <option value="option4">Дизайн №4</option>
+                        <option value="option1">Обычный</option>
+                        <option value="option2">Динамичный</option>
+                        
                     </select>
                         </div>
                     </div>
@@ -284,12 +281,11 @@
                     
                     <div class="row">
                         <div class="col-xxl-10 col-xl-10 col-lg-10 col-12 offset-1">
-                            <select name="list1" id="list">
+                            <select name="list3" id="list_3">
                         <option value="option0" selected disabled>Выберите пункт...</option>
-                        <option value="option1"> №1</option>
-                        <option value="option2"> №2</option>
-                        <option value="option3"> №3</option>
-                        <option value="option4"> №4</option>
+                        <option value="option1">Адаптивный</option>
+                        <option value="option2">Без Адаптивности</option>
+                        
                     </select>
                         </div>
                     </div>
@@ -314,13 +310,13 @@
                             <h5>Стоимость</h5>
                         </div>
                         <div class="col-xxl-2 col-xl-3 col-lg-2 col-5 offset-xxl-7 offset-xl-4 offset-lg-5 offset-4">
-                            <h6>0</h6>
+                            <h6 id="js_result">0</h6>
                         </div>
                     </div>
                     
                     <div class="row">
                         <div class="col-2 offset-5">
-                            <input type="button" value="Оставить заявку">
+                            <input id="js_button" type="button" value="Расчитать стоимость">
                         </div>
                     </div>
                             
@@ -517,8 +513,9 @@
    
    
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/wow.min.js"></script>
+    
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/myScript.js"></script>
    
 </body>

@@ -1,6 +1,3 @@
-"use strict"
-
-
 
 $(document).ready(function(){
     
@@ -57,7 +54,20 @@ $(document).ready(function () {
 });
     
     
+    
+    
+    
+    
 
+    
+    $('#js_botton').click(function(){
+       var value = $('#select').val();
+        $('#js_result').html(value);
+    });
+    
+    
+    
+/**
 let yorVar1 = prompt ("Введите число соответствующее желаемому типу Сайта 1-Сайт визитка  2-Интернет Магазин");
 
 if (yorVar1 == 1){
@@ -76,7 +86,7 @@ else {
 }
     
 
-let yorVar2 = prompt ("Введите число необходимого дизайна  1-простой    2-Динамический");
+let yorVar2 = prompt ("Введите число необходимого дизайна  1-простой    2-Динамичный");
 
 if (yorVar2 == 1){
     yorVar1 = 0;
@@ -107,4 +117,4 @@ else {
 
 let summ = yorVar1 + yorVar2 + yorVar3 + " Рублей";
 
-alert (summ);
+alert (summ);**/
