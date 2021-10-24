@@ -37,8 +37,10 @@ $('a[href^="#"]').click(function(){
     
 
     
-    $('#js_botton').click(function(){
+    $('#js_button').click(function(){
        var value = $('#select_1').val();
+        $('option1') = 5000;
+        $('option2') = 8000;
         $('#js_result').html(value);
     });
     
