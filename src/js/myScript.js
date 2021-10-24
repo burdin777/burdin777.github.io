@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
     
-    $(window).scroll(() => {
+   $(window).scroll(() => {
     let scrollDistance = $(window).scrollTop();
     
     $(".sunrize").each((i,el) => {
@@ -21,6 +21,9 @@ $(document).ready(function(){
 });
 });
 
+
+
+
 $('a[href^="#"]').click(function(){
    let valHref = $(this).attr("href");
     $('html,body').animate({scrollTop: $(valHref).offset().top - 50 + "px"});
@@ -39,8 +42,6 @@ $('a[href^="#"]').click(function(){
     
     $('#js_button').click(function(){
        var value = $('#select_1').val();
-        $('option1') = 5000;
-        $('option2') = 8000;
         $('#js_result').html(value);
     });
     
