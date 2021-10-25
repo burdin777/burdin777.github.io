@@ -41,7 +41,7 @@ $('a[href^="#"]').click(function(){
 
     
     $('#js_button').click(function(){
-       var value = $('#select_1').val();
+       var value = $('#select1').val();
         $('#js_result').html(value);
     });
     
