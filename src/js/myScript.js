@@ -44,11 +44,37 @@ $('a[href^="#"]').click(function(){
         var value1 = $('#select1').val();
         var value2 = $('#select2').val();
         var value3 = $('#select3').val();
-        var result = value1 + value2 + value3;
+        var result = parseInt(value1) + parseInt(value2) + parseInt(value3);
         
         $('#js_result').html(result);
     });
     
+
+
+
+$(function(){
+    
+    var target_block = $(".benefits__number"); //поиск блока
+    var blockStatus = true;
+    
+    $(window).scroll(function(){
+        var scrollEvent = ($(window).scrollTop() > (target_block.position().top - $(window).height()));
+        
+        if(scrollEvent && blockStatus){
+            blockStatus = false;
+            
+            $({numberValue: 0}).animate({numberValue: 1000}, {
+                duration: 500,
+                easing: "linear",
+                
+                step:function(val){
+                    
+                    $
+                }
+            })
+        }
+    })
+})
     
     
 /**
