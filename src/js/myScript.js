@@ -61,33 +61,29 @@ $('a[href^="#"]').click(function(){
 
 
 
+function countup(className){
+		var countBlockTop = $("."+className).offset().top;
+		var windowHeight = window.innerHeight;
+		var show = true;
+					
+		$(window).scroll( function (){
+			if(show && (countBlockTop < $(window).scrollTop() + windowHeight)){ 
+				show = false;
+						
+				$('.'+className).spincrement({
+					from: 1,
+					duration: 4000,
+				});
+			}
+		})	
+	}
 
+	
+        $(function() {
+		countup("benefits__number", $(".benefits__number").text());
+		countup("count2", $(".count2").text());
+        });
 
-$(function(){
-    
-    var target_block = $(".benefits__number");
-    var blockStatus = true;
-    
-    $(window).scroll(function(){
-        var scrollEvent = ($(window).scrollTop() > (target_block.position().top - $(window).height()));
-        
-        if(scrollEvent && blockStatus){
-            blockStatus = false;
-            
-            $({numberValue: 0}).animate({numberValue: 1000}, {
-                duration: 500,
-                easing: "linear",
-                
-                step:function(val){
-                    
-                    $(".benefits__number").html(Math.ceil(val));
-                }
-            });
-        }
-    });
-});
-    
-    
 /**
 let yorVar1 = prompt ("Введите число соответствующее желаемому типу Сайта 1-Сайт визитка  2-Интернет Магазин");
 
