@@ -44,17 +44,28 @@ $('a[href^="#"]').click(function(){
         var value1 = $('#select1').val();
         var value2 = $('#select2').val();
         var value3 = $('#select3').val();
+        
+        if ($("#select1")[0].selectedIndex <= 0){
+            alert("Выберите Тип сайта");
+        }
+        else if ($("#select2")[0].selectedIndex <= 0){
+            alert("Выберите Дизайн");
+        }
+        else if ($("#select3")[0].selectedIndex <= 0){
+            alert("Выберите вариант Адаптивности");
+        }
         var result = parseInt(value1) + parseInt(value2) + parseInt(value3);
         
         $('#js_result').html(result);
     });
-    
+
+
 
 
 
 $(function(){
     
-    var target_block = $(".benefits__number"); //поиск блока
+    var target_block = $(".benefits__number");
     var blockStatus = true;
     
     $(window).scroll(function(){
@@ -69,12 +80,12 @@ $(function(){
                 
                 step:function(val){
                     
-                    $
+                    $(".benefits__number").html(Math.ceil(val));
                 }
-            })
+            });
         }
-    })
-})
+    });
+});
     
     
 /**
