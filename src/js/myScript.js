@@ -21,7 +21,9 @@ $(document).ready(function(){
 });
 });
 
-
+$(document).ready(function(){
+new WOW().init();
+});
 
 
 $('a[href^="#"]').click(function(){
@@ -72,7 +74,7 @@ function countup(className){
 						
 				$('.'+className).spincrement({
 					from: 1,
-					duration: 4000,
+					duration: 3000,
 				});
 			}
 		})	
@@ -81,8 +83,9 @@ function countup(className){
 	
         $(function() {
 		countup("benefits__number", $(".benefits__number").text());
-		countup("count2", $(".count2").text());
         });
+
+
 
 /**
 let yorVar1 = prompt ("Введите число соответствующее желаемому типу Сайта 1-Сайт визитка  2-Интернет Магазин");
