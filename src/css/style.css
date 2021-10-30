@@ -799,3 +799,23 @@ main {
 .white-bt:visited {
     color: white;
 }
+
+@media (max-width: 991px){
+    .title_container1, .title_container1 h4, .title_container1 input {
+        color: white;
+        position: relative;
+        z-index: 3;
+    }
+    .main {
+        position: relative;
+    }
+    .main::after {
+        content: "";
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        background: rgba(0,0,0,0.4);
+    }
+}
