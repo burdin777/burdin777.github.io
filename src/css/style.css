@@ -217,7 +217,7 @@ main {
 }
 
 .title_container2 input:hover {
-    background: #344051;
+    background: #0153cd;
     color: white;
 }
 
@@ -385,7 +385,7 @@ main {
 }
 
 .title_container4:hover {
-    background: #384354;
+    background: #0153cd;
 
 }
 
@@ -478,7 +478,7 @@ main {
     transform: scale(1);
 }
 .main4 input:hover {
-    background: #384354;
+    background: #0153cd;
 }
 .main4 input:active {
     transform: scale(1.1);
