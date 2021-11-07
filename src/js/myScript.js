@@ -32,11 +32,7 @@ $('a[href^="#"]').click(function(){
 });
 
     
-    
-function showEditor() {
-    $("#EditModal").modal("show");//показываем модальное окно
-    $("#EditModal").appendTo("body");//перемещаем по DOM в конец body
-}
+
     
     
     
